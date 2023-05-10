@@ -1,0 +1,263 @@
+@font-face {
+    font-family: League_Sparta;
+    src: url(assets/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+html{
+   box-sizing: border-box;
+}
+
+*::before *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: League_Sparta;
+}
+
+
+.users-num-msg{
+    color: #574457;
+    /* border: 2px solid blueviolet; */
+    margin: 0 0 0 1.2rem;
+}
+
+.users-num-msg h3{
+    /* border: 2px solid midnightblue; */
+    font-weight: bold;
+    color: #541F54;
+    font-size: 39px;
+    width: 17rem;
+}
+
+.users-num-msg p{
+    /* border: 2px solid rgb(161, 151, 10); */
+    
+    width: 29rem;
+}
+
+.our-ratings{
+    color: #541F54;
+    font-weight: bold;
+    /* border: 2px solid rgb(105, 208, 221); */
+    width: 31.8rem;
+}
+
+ .reviews-rating{
+    /* border: 2px solid rgb(235, 19, 120); */
+    background: hsl(300, 24%, 96%);
+    margin: 0 25rem 0.8rem 0;
+    display: flex;
+    align-items: center;
+    width: 24rem;
+    gap: 1.2rem;
+    border-radius: 6px;
+}
+
+.star-ratings{
+    /* border: 2px solid palegreen; */
+    gap: 1rem;
+    margin: 0 0 0 1.2rem;
+}
+
+.star-report{
+    gap: 1rem;
+    margin: 0 0 0 1.2rem;
+}
+
+.report-rating{
+    /* border: 2px solid hotpink; */
+    background: hsl(300, 24%, 96%);
+    margin: 0 0 0.8rem 3.6rem;
+    display: flex;
+    align-items: center;
+    width: 24rem;
+    gap: 1.2rem;
+    border-radius: 6px;
+}
+
+.star-besttech{
+    gap: 1rem;
+    margin: 0 0 0 1.2rem;
+}
+
+.our-ratings .best-tech-rating{
+    /* border: 2px solid hotpink; */
+    margin: 0 0 0.8rem 6.6rem;
+    background: hsl(300, 24%, 96%);
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    gap: 1.2rem;
+    border-radius: 6px; 
+}
+
+.msg-ratings{
+    /* border: 5px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin: 0 0 2rem 0;
+}
+
+/* .bgpat-top{
+    border: 2px solid hotpink;
+    position: relative;
+    z-index: 1;
+} */
+
+
+.our-testimonials{
+    /* border: 6px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid indianred; */
+    background: #ece7ec;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #541F54;
+}
+/* .our-testimonials .user-1 p{
+    border: 2px solid gold;
+} */
+
+.user-1 {
+    /* border: 4px solid gold; */
+    background: hsl(300, 43%, 22%);
+    color: white;
+    width: 18%;
+    padding: 0 2rem 0 2rem;
+    border-radius: 12px;
+}
+
+.user-2 {
+    /* border: 4px solid brown; */
+    background: hsl(300, 43%, 22%);
+    color: white;
+    width: 17%;
+    padding: 0 2rem 0 2rem;
+    margin: 1.7rem 0 0 0;
+    border-radius: 12px;
+}
+
+
+.user-3{
+    /* border: 4px solid indianred; */
+    background: hsl(300, 43%, 22%);
+    color: white;
+    width: 19%;
+    padding: 0 2rem 0 2rem;
+    margin: 2.9rem 0 0 0;
+    border-radius: 12px;
+}
+.anne-pic-name img{
+    width: 35px;
+    border-radius: 40px;
+}
+
+.anne-pic-name{
+    /* border: 2px solid slateblue; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.irene-pic-name img{
+    width: 35px;
+    border-radius: 40px;
+}
+
+.irene-pic-name{
+    /* border: 2px solid slateblue; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.colton-pic-name img{
+    width: 35px;
+    border-radius: 40px;
+}
+
+.colton-pic-name{
+    /* border: 2px solid slateblue; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name1-verify h4{
+    margin: 1rem 0 -0.7rem 0;
+}
+
+.name1-verify p{
+    /* border: 2px solid tan; */
+    color: #d14fa4;
+}
+.name2-verify h4{
+    /* border: 2px solid tan; */
+    margin: 1rem 0 -0.7rem 0;
+}
+
+
+/* .our-testimonials .user-2 p{
+    color: blue;
+} */
+
+.name2-verify p{
+    /* border: 2px solid tan; */
+    color: #d14fa4
+}
+
+
+.name3-verify h4{
+    margin: 1rem 0 -0.7rem 0;
+}
+
+.name3-verify p{
+    /* border: 2px solid tan; */
+    color: #d14fa4;
+}
+
+.socialproof-section{
+    margin-top: -23rem;
+    /* position: relative; */
+    /* z-index: -3; */
+}
+
+.bgpat-top img{
+    /* border: 3px solid purple; */
+    z-index: -4;
+    position: relative;
+}
+
+
+/* .our-testimonials .user-3 p{
+    color: rgb(110, 53, 61);
+} */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
